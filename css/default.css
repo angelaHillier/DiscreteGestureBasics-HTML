@@ -1,0 +1,156 @@
+﻿body {
+    background-color: #ffffff;
+    color: gray;
+}
+
+#header {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#logo1 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#logo2 {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#apptext {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#resultGrid {
+    display: -ms-grid;
+    -ms-grid-columns: 300px 1fr;
+    -ms-grid-rows: 120px 120px 120px 120px 120px 120px 120px 120px;
+    vertical-align: auto;
+    padding: 25px;
+}
+
+#resultHeader {
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+}
+
+#seatedResult_0 {
+    margin-left: 25px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+}
+
+#seatedResult_1 {
+    margin-left: 25px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+}
+
+#seatedResult_2 {
+    margin-left: 25px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    -ms-grid-column: 1;
+    -ms-grid-row: 4;
+}
+
+#seatedResult_3 {
+    margin-left: 25px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    -ms-grid-column: 1;
+    -ms-grid-row: 5;
+}
+
+#seatedResult_4 {
+    margin-left: 25px;
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    -ms-grid-column: 1;
+    -ms-grid-row: 6;
+}
+
+#seatedResult_5 {
+    margin-left: 25px;
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    -ms-grid-column: 1;
+    -ms-grid-row: 7;
+}
+
+#canvas_container {
+    width: 70%;
+    height: 90%;
+    -ms-grid-column: 2;
+    -ms-grid-row-span: 7;
+}
+
+canvas {
+    position: absolute;
+    left: 25%;
+    width: 60%;
+    height: 80%;
+    background-color: black;
+}
+
+#ender {
+    text-align: center;
+    padding-top: 5px;
+    width: auto;
+    height: auto;
+}
+
+#status {
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+#description {
+    text-align: center;
+    padding: 20px;
+    -ms-grid-column: 1;
+    -ms-grid-row: 8;
+}
+
+@media (min-width: 500px) and (max-width: 1023px) {
+    /* CSS styles to change layout based on window width */
+}
+
+@media (min-width: 1024px) {
+    /* CSS styles to change layout based on window width */
+}

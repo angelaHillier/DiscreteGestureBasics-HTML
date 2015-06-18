@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DiscreteGestureBasics_HTML</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- DiscreteGestureBasics_HTML references -->
+    <script src="/js/kinectBodyView.js"></script>
+    <script src="/js/gestureDetector.js"></script>
+    <script src="/js/default.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        <div id="logo1"><img src="images/kinectlogo.png" alt="Kinect for Windows" height="32" width="81"></div>
+        <div id="logo2"><img src="images/Status.png" alt="Sensor Logo"></div>
+        <div id="apptext"><p>Discrete Gesture Basics</p></div>
+    </div>
+
+    <div id="resultGrid">
+        <div id="resultHeader">
+            <p>Gesture Results</p>
+        </div>
+        <div id="seatedResult_0">
+            <p>Unknown</p>
+        </div>
+        <div id="seatedResult_1">
+            <p>Unknown</p>
+        </div>
+        <div id="seatedResult_2">
+            <p>Unknown</p>
+        </div>
+        <div id="seatedResult_3">
+            <p>Unknown</p>
+        </div>
+        <div id="seatedResult_4">
+            <p>Unknown</p>
+        </div>
+        <div id="seatedResult_5">
+            <p>Unknown</p>
+        </div>
+
+        <div id="canvas_container">
+            <canvas id="mainCanvas"></canvas>
+        </div>
+
+        <div id="description">
+            <p>This program can track up to 6 people simultaneously. Stand in front of the Kinect sensor to get tracked. Sit down to trigger the 'Seated' gesture.</p>
+        </div>
+    </div>
+
+    <div id="ender">
+        <div id="status"><p id="statustext">Running</p></div>
+    </div>
+</body>
+</html>
